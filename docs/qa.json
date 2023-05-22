@@ -1,0 +1,12 @@
+{
+  "url" : "https://about.me/robeastwood/fhir/ig/ImplementationGuide/fhir.ig.experiment.06",
+  "name" : "FHIRIGExperiment06",
+  "package-id" : "fhir.ig.experiment.06",
+  "ig-ver" : "0.0.1",
+  "date" : "Mon, 22 May, 2023 20:53:04 +0000",
+  "errs" : 0,
+  "warnings" : 0,
+  "hints" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)"
+}
