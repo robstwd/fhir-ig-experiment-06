@@ -3,8 +3,6 @@ name: Run IG Publisher and deploy to GitHub pages
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
