@@ -4,10 +4,6 @@ on:
   push:
     branches: [ main ]
 
-    
-permissions:
-  pages: write
-
 jobs:
   build:
 
@@ -45,6 +41,7 @@ jobs:
     # deploy outputs to ./docs folder for publishing to GitHub pages
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.ref == 'refs/heads/main' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./publish
